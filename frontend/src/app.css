@@ -1,0 +1,201 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System CSS Variables */
+:root {
+  /* Dark theme (default) */
+  --bg: #0a0a0a;
+  --bg-elev: #1a1a1a;
+  --bg-surface: #2a2a2a;
+  --text: #f8f8f8;
+  --text-muted: #a0a0a0;
+  --gold: #FDB719;
+  --gold-muted: #fdd466;
+  --border: #404040;
+  --border-light: #606060;
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-elev: #f8f8f8;
+  --bg-surface: #f0f0f0;
+  --text: #0a0a0a;
+  --text-muted: #606060;
+  --gold: #FDB719;
+  --gold-muted: #e5a516;
+  --border: #e0e0e0;
+  --border-light: #c0c0c0;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-elev);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* Utility classes */
+.text-gold {
+  color: #FDB719;
+}
+
+.bg-gold {
+  background-color: #FDB719;
+}
+
+.border-gold {
+  border-color: #FDB719;
+}
+
+.bg-surface {
+  background-color: #2a2a2a;
+}
+
+.bg-elevated {
+  background-color: #1a1a1a;
+}
+
+.text-muted {
+  color: #a0a0a0;
+}
+
+.border-subtle {
+  border-color: #404040;
+}
+
+.font-heading {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Light theme overrides */
+[data-theme="light"] .bg-surface {
+  background-color: #f0f0f0;
+}
+
+[data-theme="light"] .bg-elevated {
+  background-color: #f8f8f8;
+}
+
+[data-theme="light"] .text-muted {
+  color: #606060;
+}
+
+[data-theme="light"] .border-subtle {
+  border-color: #e0e0e0;
+}
+
+/* Animation utilities */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+.animate-bounce-subtle {
+  animation: bounceSubtle 0.6s ease-in-out;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Gold accent styles */
+.gold-accent {
+  position: relative;
+}
+
+.gold-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-muted));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.gold-accent:hover::after {
+  transform: scaleX(1);
+}
+
+/* Background patterns */
+.bg-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(253, 183, 25, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(253, 183, 25, 0.05) 0%, transparent 50%);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="light"] .glass {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
