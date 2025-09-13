@@ -167,10 +167,10 @@ export default function CompetitionsPage() {
 
         {/* CTA Section */}
         <div className="text-center bg-gradient-to-r from-gold to-gold-600 rounded-lg p-12">
-          <h2 className="text-3xl font-heading font-bold text-black mb-4">
+          <h2 className="text-3xl font-heading font-bold text-gold-bg mb-4">
             Ready to Compete?
           </h2>
-          <p className="text-xl text-black/80 mb-8">
+          <p className="text-xl text-gold-bg-muted mb-8">
             Join TigerQuant to participate in these exciting competitions and showcase your quantitative finance skills.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -182,7 +182,8 @@ export default function CompetitionsPage() {
             </a>
             <a
               href="/executive-board"
-              className="inline-flex items-center px-8 py-4 border-2 border-black text-black font-semibold rounded-lg hover:bg-black hover:text-gold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gold"
+              className="inline-flex items-center px-8 py-4 border-2 text-gold-bg font-semibold rounded-lg hover:bg-gold-bg hover:text-gold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gold-bg focus:ring-offset-2 focus:ring-offset-gold"
+              style={{ borderColor: 'var(--text-dark)' }}
             >
               Contact Leadership
             </a>

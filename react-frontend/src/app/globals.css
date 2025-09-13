@@ -13,7 +13,7 @@
   --text-muted: #a0a0a0;
   --text-subtle: #808080;
   --text-light: #ffffff;
-  --text-dark: #0a0a0a;
+  --text-dark: #ffffff;  /* White text for gold backgrounds in dark mode */
   --gold: #FDB719;
   --gold-muted: #fdd466;
   --border: #404040;
@@ -30,7 +30,7 @@
   --text-muted: #404040;
   --text-subtle: #606060;
   --text-light: #0a0a0a;
-  --text-dark: #ffffff;
+  --text-dark: #0a0a0a;  /* Black text for gold backgrounds in light mode */
   --gold: #FDB719;
   --gold-muted: #e5a516;
   --border: #e0e0e0;
@@ -181,6 +181,33 @@ h1, h2, h3, h4, h5, h6 {
 
   .text-theme-inverse-muted {
     color: var(--text-dark);
+  }
+
+  /* Text for gold backgrounds - adapts to theme */
+  .text-gold-bg {
+    color: var(--text-dark);
+  }
+
+  .text-gold-bg-muted {
+    color: var(--text-dark);
+    opacity: 0.8;
+  }
+
+  /* Border and background for gold sections */
+  .border-gold-bg {
+    border-color: var(--text-dark);
+  }
+
+  .bg-gold-bg {
+    background-color: var(--text-dark);
+  }
+
+  .hover\:bg-gold-bg:hover {
+    background-color: var(--text-dark);
+  }
+
+  .focus\:ring-gold-bg:focus {
+    --tw-ring-color: var(--text-dark);
   }
 }
 
