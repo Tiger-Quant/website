@@ -34,8 +34,8 @@ export default function Header() {
             <Image
               src="/logo-no-background.png"
               alt="TigerQuant Logo"
-              width={32}
-              height={32}
+              width={200}
+              height={79}
               className="h-8 w-auto"
             />
             <h1 className="text-xl font-heading font-semibold text-gold">

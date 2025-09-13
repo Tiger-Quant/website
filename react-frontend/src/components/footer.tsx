@@ -12,8 +12,8 @@ export default function Footer() {
               <Image
                 src="/logo-no-background.png"
                 alt="TigerQuant Logo"
-                width={32}
-                height={32}
+                width={200}
+                height={79}
                 className="h-8 w-auto"
               />
               <h3 className="text-lg font-heading font-semibold text-gold">
