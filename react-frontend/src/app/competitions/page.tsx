@@ -14,9 +14,9 @@ export default function CompetitionsPage() {
       case 'ongoing':
         return 'text-green-400 bg-green-400/10';
       case 'completed':
-        return 'text-medium-contrast bg-muted/10';
+        return 'text-secondary bg-muted/10';
       default:
-        return 'text-medium-contrast bg-muted/10';
+        return 'text-secondary bg-muted/10';
     }
   };
 
@@ -25,10 +25,10 @@ export default function CompetitionsPage() {
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
             Competitions
           </h1>
-          <p className="text-xl text-medium-contrast max-w-3xl mx-auto">
+          <p className="text-xl text-secondary max-w-3xl mx-auto">
             Test your skills in national and international quantitative finance competitions.
           </p>
         </div>
@@ -43,35 +43,35 @@ export default function CompetitionsPage() {
             >
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-heading font-semibold text-white">
+                  <h3 className="text-xl font-heading font-semibold text-primary">
                     {competition.title}
                   </h3>
                   <span className={`px-3 py-1 rounded-full text-xs font-medium ${getStatusColor(competition.status)}`}>
                     {competition.status}
                   </span>
                 </div>
-                <p className="text-medium-contrast text-sm mb-4">
+                <p className="text-secondary text-sm mb-4">
                   Hosted by {competition.host}
                 </p>
-                <p className="text-medium-contrast text-sm leading-relaxed">
+                <p className="text-secondary text-sm leading-relaxed">
                   {competition.description}
                 </p>
               </div>
 
               <div className="space-y-3 mb-6">
-                <div className="flex items-center text-sm text-medium-contrast">
+                <div className="flex items-center text-sm text-secondary">
                   <Trophy className="w-4 h-4 mr-2 text-gold" />
                   Prize: {competition.prize}
                 </div>
-                <div className="flex items-center text-sm text-medium-contrast">
+                <div className="flex items-center text-sm text-secondary">
                   <Users className="w-4 h-4 mr-2 text-gold" />
                   {competition.participants}
                 </div>
-                <div className="flex items-center text-sm text-medium-contrast">
+                <div className="flex items-center text-sm text-secondary">
                   <Clock className="w-4 h-4 mr-2 text-gold" />
                   {competition.duration}
                 </div>
-                <div className="flex items-center text-sm text-medium-contrast">
+                <div className="flex items-center text-sm text-secondary">
                   <Calendar className="w-4 h-4 mr-2 text-gold" />
                   {competition.year}
                 </div>
@@ -90,12 +90,12 @@ export default function CompetitionsPage() {
             <div className="bg-elevated rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
               <div className="p-8">
                 <div className="flex items-center justify-between mb-6">
-                  <h2 className="text-2xl font-heading font-semibold text-white">
+                  <h2 className="text-2xl font-heading font-semibold text-primary">
                     {selectedCompetition.title}
                   </h2>
                   <button
                     onClick={() => setSelectedCompetition(null)}
-                    className="text-medium-contrast hover:text-white transition-colors"
+                    className="text-secondary hover:text-primary transition-colors"
                   >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -106,7 +106,7 @@ export default function CompetitionsPage() {
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-lg font-semibold text-gold mb-2">Description</h3>
-                    <p className="text-medium-contrast leading-relaxed">
+                    <p className="text-secondary leading-relaxed">
                       {selectedCompetition.description}
                     </p>
                   </div>
@@ -114,23 +114,23 @@ export default function CompetitionsPage() {
                   <div className="grid grid-cols-2 gap-6">
                     <div>
                       <h3 className="text-lg font-semibold text-gold mb-2">Host Organization</h3>
-                      <p className="text-medium-contrast">{selectedCompetition.host}</p>
+                      <p className="text-secondary">{selectedCompetition.host}</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gold mb-2">Year</h3>
-                      <p className="text-medium-contrast">{selectedCompetition.year}</p>
+                      <p className="text-secondary">{selectedCompetition.year}</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gold mb-2">Prize</h3>
-                      <p className="text-medium-contrast">{selectedCompetition.prize}</p>
+                      <p className="text-secondary">{selectedCompetition.prize}</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gold mb-2">Participants</h3>
-                      <p className="text-medium-contrast">{selectedCompetition.participants}</p>
+                      <p className="text-secondary">{selectedCompetition.participants}</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gold mb-2">Duration</h3>
-                      <p className="text-medium-contrast">{selectedCompetition.duration}</p>
+                      <p className="text-secondary">{selectedCompetition.duration}</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gold mb-2">Status</h3>
@@ -142,7 +142,7 @@ export default function CompetitionsPage() {
 
                   <div>
                     <h3 className="text-lg font-semibold text-gold mb-2">Requirements</h3>
-                    <p className="text-medium-contrast leading-relaxed">
+                    <p className="text-secondary leading-relaxed">
                       {selectedCompetition.requirements}
                     </p>
                   </div>
@@ -150,7 +150,7 @@ export default function CompetitionsPage() {
                   <div className="flex justify-end space-x-4 pt-6 border-t border-subtle">
                     <button
                       onClick={() => setSelectedCompetition(null)}
-                      className="px-6 py-3 border border-subtle text-medium-contrast rounded-lg hover:text-white hover:border-gold transition-colors duration-200"
+                      className="px-6 py-3 border border-subtle text-secondary rounded-lg hover:text-primary hover:border-gold transition-colors duration-200"
                     >
                       Close
                     </button>

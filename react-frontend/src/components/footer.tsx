@@ -20,7 +20,7 @@ export default function Footer() {
                 TigerQuant
               </h3>
             </div>
-            <p className="text-medium-contrast text-sm">
+            <p className="text-secondary text-sm">
               University of Missouri&apos;s premier quantitative finance club. Learn, build, and compete in the world of quantitative finance.
             </p>
           </div>
@@ -29,19 +29,19 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="font-heading font-semibold text-gold">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/about" className="block text-medium-contrast hover:text-gold transition-colors text-sm">
+              <Link href="/about" className="block text-secondary hover:text-gold transition-colors text-sm">
                 About Us
               </Link>
-              <Link href="/executive-board" className="block text-medium-contrast hover:text-gold transition-colors text-sm">
+              <Link href="/executive-board" className="block text-secondary hover:text-gold transition-colors text-sm">
                 Executive Board
               </Link>
-              <Link href="/portfolios" className="block text-medium-contrast hover:text-gold transition-colors text-sm">
+              <Link href="/portfolios" className="block text-secondary hover:text-gold transition-colors text-sm">
                 Portfolios
               </Link>
-              <Link href="/competitions" className="block text-medium-contrast hover:text-gold transition-colors text-sm">
+              <Link href="/competitions" className="block text-secondary hover:text-gold transition-colors text-sm">
                 Competitions
               </Link>
-              <Link href="/join" className="block text-medium-contrast hover:text-gold transition-colors text-sm">
+              <Link href="/join" className="block text-secondary hover:text-gold transition-colors text-sm">
                 Join Us
               </Link>
             </div>
@@ -51,11 +51,11 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="font-heading font-semibold text-gold">Contact</h4>
             <div className="space-y-2">
-              <p className="text-medium-contrast text-sm">University of Missouri</p>
-              <p className="text-medium-contrast text-sm">Columbia, MO</p>
+              <p className="text-secondary text-sm">University of Missouri</p>
+              <p className="text-secondary text-sm">Columbia, MO</p>
               <a 
                 href="mailto:tigerquant@missouri.edu" 
-                className="block text-medium-contrast hover:text-gold transition-colors text-sm"
+                className="block text-secondary hover:text-gold transition-colors text-sm"
               >
                 tigerquant@missouri.edu
               </a>
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-subtle mt-8 pt-8 text-center">
-          <p className="text-medium-contrast text-sm">
+          <p className="text-secondary text-sm">
             © 2024 TigerQuant. All rights reserved. | University of Missouri
           </p>
         </div>

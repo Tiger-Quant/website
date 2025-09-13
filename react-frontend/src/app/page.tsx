@@ -7,10 +7,10 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-surface to-elevated py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6 animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-heading font-bold text-primary mb-6 animate-fade-in">
             TigerQuant
           </h1>
-          <p className="text-xl md:text-2xl text-medium-contrast mb-8 max-w-3xl mx-auto animate-fade-in">
+          <p className="text-xl md:text-2xl text-secondary mb-8 max-w-3xl mx-auto animate-fade-in">
             University of Missouri&apos;s premier quantitative finance club. Learn, build, and compete in the world of quantitative finance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
@@ -37,15 +37,15 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="animate-fade-in">
               <div className="text-4xl font-bold text-gold mb-2">160+</div>
-              <div className="text-medium-contrast">Active Members</div>
+              <div className="text-secondary">Active Members</div>
             </div>
             <div className="animate-fade-in">
               <div className="text-4xl font-bold text-gold mb-2">15+</div>
-              <div className="text-medium-contrast">Competitions Won</div>
+              <div className="text-secondary">Competitions Won</div>
             </div>
             <div className="animate-fade-in">
               <div className="text-4xl font-bold text-gold mb-2">50+</div>
-              <div className="text-medium-contrast">Guest Speakers</div>
+              <div className="text-secondary">Guest Speakers</div>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function HomePage() {
       {/* Value Pillars */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-center text-white mb-16">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-center text-primary mb-16">
             What We Do
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -63,8 +63,8 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
                 <BookOpen className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-2xl font-heading font-semibold text-white mb-4">Learn</h3>
-              <p className="text-medium-contrast">
+              <h3 className="text-2xl font-heading font-semibold text-primary mb-4">Learn</h3>
+              <p className="text-secondary">
                 Master quantitative finance concepts through workshops, guest lectures, and hands-on projects with industry professionals.
               </p>
             </div>
@@ -74,8 +74,8 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-2xl font-heading font-semibold text-white mb-4">Build</h3>
-              <p className="text-medium-contrast">
+              <h3 className="text-2xl font-heading font-semibold text-primary mb-4">Build</h3>
+              <p className="text-secondary">
                 Develop trading algorithms, risk models, and financial tools using cutting-edge technology and real market data.
               </p>
             </div>
@@ -85,8 +85,8 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
                 <Trophy className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-2xl font-heading font-semibold text-white mb-4">Compete</h3>
-              <p className="text-medium-contrast">
+              <h3 className="text-2xl font-heading font-semibold text-primary mb-4">Compete</h3>
+              <p className="text-secondary">
                 Test your skills in national competitions and trading challenges against top universities and industry professionals.
               </p>
             </div>

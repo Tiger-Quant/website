@@ -18,17 +18,17 @@ export default function ExecutiveBoardPage() {
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
             Executive Board
           </h1>
-          <p className="text-xl text-medium-contrast max-w-3xl mx-auto">
+          <p className="text-xl text-secondary max-w-3xl mx-auto">
             Meet the leadership team driving innovation in quantitative finance education at the University of Missouri.
           </p>
         </div>
 
         {/* Officers Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-heading font-semibold text-white mb-8 text-center">
+          <h2 className="text-3xl font-heading font-semibold text-primary mb-8 text-center">
             Current Officers
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -40,14 +40,14 @@ export default function ExecutiveBoardPage() {
                       {officer.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
-                  <h3 className="text-xl font-heading font-semibold text-white mb-2">
+                  <h3 className="text-xl font-heading font-semibold text-primary mb-2">
                     {officer.name}
                   </h3>
                   <p className="text-gold font-medium mb-1">{officer.role}</p>
-                  <p className="text-medium-contrast text-sm">{officer.major}</p>
-                  <p className="text-medium-contrast text-sm">Class of {officer.gradYear}</p>
+                  <p className="text-secondary text-sm">{officer.major}</p>
+                  <p className="text-secondary text-sm">Class of {officer.gradYear}</p>
                 </div>
-                <p className="text-medium-contrast text-sm mb-6 leading-relaxed">
+                <p className="text-secondary text-sm mb-6 leading-relaxed">
                   {officer.bio}
                 </p>
                 <div className="flex justify-center space-x-4">
@@ -75,7 +75,7 @@ export default function ExecutiveBoardPage() {
 
         {/* Alumni Section */}
         <section>
-          <h2 className="text-3xl font-heading font-semibold text-white mb-8 text-center">
+          <h2 className="text-3xl font-heading font-semibold text-primary mb-8 text-center">
             Distinguished Alumni
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -87,12 +87,12 @@ export default function ExecutiveBoardPage() {
                       {alumnus.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
-                  <h3 className="text-lg font-heading font-semibold text-white mb-2">
+                  <h3 className="text-lg font-heading font-semibold text-primary mb-2">
                     {alumnus.name}
                   </h3>
                   <p className="text-gold font-medium mb-1">{alumnus.currentPosition}</p>
-                  <p className="text-medium-contrast text-sm mb-2">{alumnus.company}</p>
-                  <p className="text-medium-contrast text-sm">Class of {alumnus.graduationYear}</p>
+                  <p className="text-secondary text-sm mb-2">{alumnus.company}</p>
+                  <p className="text-secondary text-sm">Class of {alumnus.graduationYear}</p>
                 </div>
               </div>
             ))}

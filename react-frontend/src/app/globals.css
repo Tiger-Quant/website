@@ -12,6 +12,8 @@
   --text: #f8f8f8;
   --text-muted: #a0a0a0;
   --text-subtle: #808080;
+  --text-light: #ffffff;
+  --text-dark: #0a0a0a;
   --gold: #FDB719;
   --gold-muted: #fdd466;
   --border: #404040;
@@ -27,6 +29,8 @@
   --text: #0a0a0a;
   --text-muted: #404040;
   --text-subtle: #606060;
+  --text-light: #0a0a0a;
+  --text-dark: #ffffff;
   --gold: #FDB719;
   --gold-muted: #e5a516;
   --border: #e0e0e0;
@@ -144,6 +148,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', system-ui, sans-serif;
   }
 
+  /* Theme-aware text colors */
+  .text-primary {
+    color: var(--text);
+  }
+
+  .text-secondary {
+    color: var(--text-muted);
+  }
+
+  .text-tertiary {
+    color: var(--text-subtle);
+  }
+
   /* High contrast text for better visibility */
   .text-high-contrast {
     color: var(--text);
@@ -155,6 +172,15 @@ h1, h2, h3, h4, h5, h6 {
 
   .text-low-contrast {
     color: var(--text-subtle);
+  }
+
+  /* Theme-aware text that inverts based on theme */
+  .text-theme-inverse {
+    color: var(--text-light);
+  }
+
+  .text-theme-inverse-muted {
+    color: var(--text-dark);
   }
 }
 

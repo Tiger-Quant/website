@@ -16,10 +16,10 @@ export default function JoinPage() {
       <div className="max-w-4xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
             Join TigerQuant
           </h1>
-          <p className="text-xl text-medium-contrast max-w-3xl mx-auto">
+          <p className="text-xl text-secondary max-w-3xl mx-auto">
             Become part of the next generation of quantitative finance professionals. 
             Learn, build, and compete with the best and brightest at Mizzou.
           </p>
@@ -27,7 +27,7 @@ export default function JoinPage() {
 
         {/* Benefits Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-heading font-semibold text-white mb-8 text-center">
+          <h2 className="text-3xl font-heading font-semibold text-primary mb-8 text-center">
             Why Join TigerQuant?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -35,8 +35,8 @@ export default function JoinPage() {
               <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-heading font-semibold text-white mb-3">Network</h3>
-              <p className="text-medium-contrast">
+              <h3 className="text-xl font-heading font-semibold text-primary mb-3">Network</h3>
+              <p className="text-secondary">
                 Connect with industry professionals, alumni, and like-minded students passionate about quantitative finance.
               </p>
             </div>
@@ -44,8 +44,8 @@ export default function JoinPage() {
               <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-heading font-semibold text-white mb-3">Learn</h3>
-              <p className="text-medium-contrast">
+              <h3 className="text-xl font-heading font-semibold text-primary mb-3">Learn</h3>
+              <p className="text-secondary">
                 Access exclusive workshops, guest lectures, and hands-on projects with cutting-edge financial technology.
               </p>
             </div>
@@ -53,8 +53,8 @@ export default function JoinPage() {
               <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <Trophy className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-heading font-semibold text-white mb-3">Compete</h3>
-              <p className="text-medium-contrast">
+              <h3 className="text-xl font-heading font-semibold text-primary mb-3">Compete</h3>
+              <p className="text-secondary">
                 Test your skills in national competitions and showcase your abilities to potential employers.
               </p>
             </div>
@@ -63,7 +63,7 @@ export default function JoinPage() {
 
         {/* How to Join Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-heading font-semibold text-white mb-8 text-center">
+          <h2 className="text-3xl font-heading font-semibold text-primary mb-8 text-center">
             How to Join
           </h2>
           <div className="space-y-8">
@@ -72,10 +72,10 @@ export default function JoinPage() {
                 <span className="text-black font-bold text-sm">1</span>
               </div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-white mb-2">
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">
                   Attend an Information Session
                 </h3>
-                <p className="text-medium-contrast">
+                <p className="text-secondary">
                   Come to one of our weekly meetings to learn more about TigerQuant and meet current members. 
                   Meetings are held every Tuesday at 6:00 PM in Cornell Hall, Room 101.
                 </p>
@@ -87,10 +87,10 @@ export default function JoinPage() {
                 <span className="text-black font-bold text-sm">2</span>
               </div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-white mb-2">
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">
                   Complete the Application
                 </h3>
-                <p className="text-medium-contrast">
+                <p className="text-secondary">
                   Fill out our membership application form, which includes your academic background, 
                   interest in quantitative finance, and relevant experience.
                 </p>
@@ -102,10 +102,10 @@ export default function JoinPage() {
                 <span className="text-black font-bold text-sm">3</span>
               </div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-white mb-2">
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">
                   Participate in Orientation
                 </h3>
-                <p className="text-medium-contrast">
+                <p className="text-secondary">
                   Attend our new member orientation to learn about club activities, 
                   resources, and how to get the most out of your membership.
                 </p>
@@ -117,10 +117,10 @@ export default function JoinPage() {
                 <span className="text-black font-bold text-sm">4</span>
               </div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-white mb-2">
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">
                   Start Trading
                 </h3>
-                <p className="text-medium-contrast">
+                <p className="text-secondary">
                   Begin your journey with our paper trading platform and start building 
                   your quantitative finance skills through hands-on experience.
                 </p>
@@ -131,7 +131,7 @@ export default function JoinPage() {
 
         {/* Requirements Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-heading font-semibold text-white mb-8 text-center">
+          <h2 className="text-3xl font-heading font-semibold text-primary mb-8 text-center">
             Membership Requirements
           </h2>
           <div className="bg-elevated rounded-lg p-8">
@@ -139,15 +139,15 @@ export default function JoinPage() {
               <div>
                 <h3 className="text-xl font-heading font-semibold text-gold mb-4">Academic Requirements</h3>
                 <ul className="space-y-2">
-                  <li className="flex items-center text-medium-contrast">
+                  <li className="flex items-center text-secondary">
                     <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
                     Currently enrolled at University of Missouri
                   </li>
-                  <li className="flex items-center text-medium-contrast">
+                  <li className="flex items-center text-secondary">
                     <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
                     Minimum 3.0 GPA
                   </li>
-                  <li className="flex items-center text-medium-contrast">
+                  <li className="flex items-center text-secondary">
                     <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
                     Interest in quantitative finance
                   </li>
@@ -156,15 +156,15 @@ export default function JoinPage() {
               <div>
                 <h3 className="text-xl font-heading font-semibold text-gold mb-4">Commitment</h3>
                 <ul className="space-y-2">
-                  <li className="flex items-center text-medium-contrast">
+                  <li className="flex items-center text-secondary">
                     <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
                     Attend at least 75% of meetings
                   </li>
-                  <li className="flex items-center text-medium-contrast">
+                  <li className="flex items-center text-secondary">
                     <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
                     Participate in club activities
                   </li>
-                  <li className="flex items-center text-medium-contrast">
+                  <li className="flex items-center text-secondary">
                     <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
                     Maintain professional conduct
                   </li>

@@ -119,7 +119,7 @@ export default function Header() {
 
       <style jsx>{`
         .nav-link {
-          @apply text-medium-contrast hover:text-gold transition-colors duration-200 font-medium relative;
+          @apply text-secondary hover:text-gold transition-colors duration-200 font-medium relative;
         }
 
         .nav-link.active {
@@ -137,7 +137,7 @@ export default function Header() {
         }
 
         .mobile-nav-link {
-          @apply block px-4 py-2 text-medium-contrast hover:text-gold hover:bg-surface rounded-lg transition-all duration-200 font-medium;
+          @apply block px-4 py-2 text-secondary hover:text-gold hover:bg-surface rounded-lg transition-all duration-200 font-medium;
         }
 
         .mobile-nav-link.active {

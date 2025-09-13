@@ -37,10 +37,10 @@ export default function PortfoliosPage() {
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
             Member Portfolios
           </h1>
-          <p className="text-xl text-medium-contrast max-w-3xl mx-auto">
+          <p className="text-xl text-secondary max-w-3xl mx-auto">
             Explore the trading strategies and performance of our members&apos; portfolios.
           </p>
         </div>
@@ -50,13 +50,13 @@ export default function PortfoliosPage() {
           <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
             <div className="flex-1 max-w-md">
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-medium-contrast w-5 h-5" />
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-secondary w-5 h-5" />
                 <input
                   type="text"
                   placeholder="Search portfolios..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 bg-elevated border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                  className="w-full pl-10 pr-4 py-3 bg-elevated border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                 />
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function PortfoliosPage() {
                   const portfolio = portfoliosData.portfolios.find(p => p.id === parseInt(e.target.value));
                   if (portfolio) setSelectedPortfolio(portfolio);
                 }}
-                className="w-full px-4 py-3 bg-elevated border border-subtle rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                className="w-full px-4 py-3 bg-elevated border border-subtle rounded-lg text-primary focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
               >
                 {portfoliosData.portfolios.map((portfolio) => (
                   <option key={portfolio.id} value={portfolio.id}>
@@ -84,10 +84,10 @@ export default function PortfoliosPage() {
           <div className="bg-elevated rounded-lg p-8">
             <div className="flex items-center justify-between mb-6">
               <div>
-                <h2 className="text-2xl font-heading font-semibold text-white mb-2">
+                <h2 className="text-2xl font-heading font-semibold text-primary mb-2">
                   {selectedPortfolio.name}
                 </h2>
-                <p className="text-medium-contrast">{selectedPortfolio.strategy}</p>
+                <p className="text-secondary">{selectedPortfolio.strategy}</p>
               </div>
               <div className="text-right">
                 <div className="text-3xl font-bold text-gold mb-1">
@@ -153,31 +153,31 @@ export default function PortfoliosPage() {
             <div className="text-2xl font-bold text-gold mb-2">
               {formatPercentage(selectedPortfolio.performance.totalReturn)}
             </div>
-            <div className="text-medium-contrast text-sm">Total Return</div>
+            <div className="text-secondary text-sm">Total Return</div>
           </div>
           <div className="bg-elevated rounded-lg p-6 text-center">
             <div className="text-2xl font-bold text-gold mb-2">
               {selectedPortfolio.performance.sharpeRatio.toFixed(2)}
             </div>
-            <div className="text-medium-contrast text-sm">Sharpe Ratio</div>
+            <div className="text-secondary text-sm">Sharpe Ratio</div>
           </div>
           <div className="bg-elevated rounded-lg p-6 text-center">
             <div className="text-2xl font-bold text-gold mb-2">
               {formatPercentage(selectedPortfolio.performance.maxDrawdown)}
             </div>
-            <div className="text-medium-contrast text-sm">Max Drawdown</div>
+            <div className="text-secondary text-sm">Max Drawdown</div>
           </div>
           <div className="bg-elevated rounded-lg p-6 text-center">
             <div className="text-2xl font-bold text-gold mb-2">
               {formatPercentage(selectedPortfolio.performance.volatility)}
             </div>
-            <div className="text-medium-contrast text-sm">Volatility</div>
+            <div className="text-secondary text-sm">Volatility</div>
           </div>
         </div>
 
         {/* Holdings Table */}
         <div className="mb-12">
-          <h3 className="text-2xl font-heading font-semibold text-white mb-6">
+          <h3 className="text-2xl font-heading font-semibold text-primary mb-6">
             Current Holdings
           </h3>
           <div className="bg-elevated rounded-lg overflow-hidden">
@@ -192,10 +192,10 @@ export default function PortfoliosPage() {
               <tbody className="divide-y divide-subtle">
                 {selectedPortfolio.holdings.map((holding, index) => (
                   <tr key={index} className="hover:bg-surface/50 transition-colors">
-                    <td className="px-6 py-4 text-sm text-white font-medium">
+                    <td className="px-6 py-4 text-sm text-primary font-medium">
                       {holding.symbol}
                     </td>
-                    <td className="px-6 py-4 text-sm text-medium-contrast">
+                    <td className="px-6 py-4 text-sm text-secondary">
                       {holding.weight.toFixed(1)}%
                     </td>
                     <td className={`px-6 py-4 text-sm font-medium ${
@@ -212,7 +212,7 @@ export default function PortfoliosPage() {
 
         {/* All Portfolios Table */}
         <div>
-          <h3 className="text-2xl font-heading font-semibold text-white mb-6">
+          <h3 className="text-2xl font-heading font-semibold text-primary mb-6">
             All Portfolios
           </h3>
           <div className="bg-elevated rounded-lg overflow-hidden">
@@ -233,10 +233,10 @@ export default function PortfoliosPage() {
                     className="hover:bg-surface/50 transition-colors cursor-pointer"
                     onClick={() => setSelectedPortfolio(portfolio)}
                   >
-                    <td className="px-6 py-4 text-sm text-white font-medium">
+                    <td className="px-6 py-4 text-sm text-primary font-medium">
                       {portfolio.name}
                     </td>
-                    <td className="px-6 py-4 text-sm text-medium-contrast">
+                    <td className="px-6 py-4 text-sm text-secondary">
                       {portfolio.strategy}
                     </td>
                     <td className={`px-6 py-4 text-sm font-medium ${
@@ -244,10 +244,10 @@ export default function PortfoliosPage() {
                     }`}>
                       {formatPercentage(portfolio.performance.totalReturn)}
                     </td>
-                    <td className="px-6 py-4 text-sm text-medium-contrast">
+                    <td className="px-6 py-4 text-sm text-secondary">
                       {portfolio.performance.sharpeRatio.toFixed(2)}
                     </td>
-                    <td className="px-6 py-4 text-sm text-medium-contrast">
+                    <td className="px-6 py-4 text-sm text-secondary">
                       {formatPercentage(portfolio.performance.volatility)}
                     </td>
                   </tr>

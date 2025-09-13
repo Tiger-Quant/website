@@ -65,10 +65,10 @@ export default function RegisterPage() {
           <div className="w-20 h-20 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
             <CheckCircle className="w-10 h-10 text-black" />
           </div>
-          <h1 className="text-4xl font-heading font-bold text-white mb-6">
+          <h1 className="text-4xl font-heading font-bold text-primary mb-6">
             Registration Successful!
           </h1>
-          <p className="text-xl text-medium-contrast mb-8">
+          <p className="text-xl text-secondary mb-8">
             Thank you for registering for TigerQuant&apos;s paper trading platform. 
             You&apos;ll receive an email with your login credentials within 24 hours.
           </p>
@@ -90,10 +90,10 @@ export default function RegisterPage() {
       <div className="max-w-2xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
             Paper Trading Registration
           </h1>
-          <p className="text-xl text-medium-contrast">
+          <p className="text-xl text-secondary">
             Register for access to TigerQuant&apos;s paper trading platform and start building your quantitative finance skills.
           </p>
         </div>
@@ -103,13 +103,13 @@ export default function RegisterPage() {
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Personal Information */}
             <div>
-              <h2 className="text-2xl font-heading font-semibold text-white mb-6 flex items-center">
+              <h2 className="text-2xl font-heading font-semibold text-primary mb-6 flex items-center">
                 <User className="w-6 h-6 mr-3 text-gold" />
                 Personal Information
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="firstName" className="block text-sm font-medium text-primary mb-2">
                     First Name *
                   </label>
                   <input
@@ -119,12 +119,12 @@ export default function RegisterPage() {
                     required
                     value={formData.firstName}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="Enter your first name"
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="lastName" className="block text-sm font-medium text-primary mb-2">
                     Last Name *
                   </label>
                   <input
@@ -134,7 +134,7 @@ export default function RegisterPage() {
                     required
                     value={formData.lastName}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="Enter your last name"
                   />
                 </div>
@@ -143,13 +143,13 @@ export default function RegisterPage() {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-2xl font-heading font-semibold text-white mb-6 flex items-center">
+              <h2 className="text-2xl font-heading font-semibold text-primary mb-6 flex items-center">
                 <Mail className="w-6 h-6 mr-3 text-gold" />
                 Contact Information
               </h2>
               <div className="space-y-6">
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-primary mb-2">
                     Email Address *
                   </label>
                   <input
@@ -159,12 +159,12 @@ export default function RegisterPage() {
                     required
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="your.email@missouri.edu"
                   />
                 </div>
                 <div>
-                  <label htmlFor="studentId" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="studentId" className="block text-sm font-medium text-primary mb-2">
                     Student ID *
                   </label>
                   <input
@@ -174,7 +174,7 @@ export default function RegisterPage() {
                     required
                     value={formData.studentId}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="Enter your student ID"
                   />
                 </div>
@@ -183,13 +183,13 @@ export default function RegisterPage() {
 
             {/* Academic Information */}
             <div>
-              <h2 className="text-2xl font-heading font-semibold text-white mb-6 flex items-center">
+              <h2 className="text-2xl font-heading font-semibold text-primary mb-6 flex items-center">
                 <GraduationCap className="w-6 h-6 mr-3 text-gold" />
                 Academic Information
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="major" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="major" className="block text-sm font-medium text-primary mb-2">
                     Major *
                   </label>
                   <input
@@ -199,12 +199,12 @@ export default function RegisterPage() {
                     required
                     value={formData.major}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="e.g., Computer Science & Finance"
                   />
                 </div>
                 <div>
-                  <label htmlFor="year" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="year" className="block text-sm font-medium text-primary mb-2">
                     Academic Year *
                   </label>
                   <select
@@ -213,7 +213,7 @@ export default function RegisterPage() {
                     required
                     value={formData.year}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                   >
                     <option value="">Select your year</option>
                     <option value="Freshman">Freshman</option>
@@ -228,12 +228,12 @@ export default function RegisterPage() {
 
             {/* Experience and Interests */}
             <div>
-              <h2 className="text-2xl font-heading font-semibold text-white mb-6">
+              <h2 className="text-2xl font-heading font-semibold text-primary mb-6">
                 Experience & Interests
               </h2>
               <div className="space-y-6">
                 <div>
-                  <label htmlFor="experience" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="experience" className="block text-sm font-medium text-primary mb-2">
                     Trading/Finance Experience
                   </label>
                   <textarea
@@ -242,12 +242,12 @@ export default function RegisterPage() {
                     rows={4}
                     value={formData.experience}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="Describe any previous experience with trading, finance, or quantitative analysis..."
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-white mb-3">
+                  <label className="block text-sm font-medium text-primary mb-3">
                     Areas of Interest (Select all that apply)
                   </label>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -261,13 +261,13 @@ export default function RegisterPage() {
                           onChange={handleInputChange}
                           className="w-4 h-4 text-gold bg-surface border-subtle rounded focus:ring-gold focus:ring-2"
                         />
-                        <span className="text-sm text-medium-contrast">{interest}</span>
+                        <span className="text-sm text-secondary">{interest}</span>
                       </label>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="goals" className="block text-sm font-medium text-white mb-2">
+                  <label htmlFor="goals" className="block text-sm font-medium text-primary mb-2">
                     Goals & Objectives
                   </label>
                   <textarea
@@ -276,7 +276,7 @@ export default function RegisterPage() {
                     rows={4}
                     value={formData.goals}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-white placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
+                    className="w-full px-4 py-3 bg-surface border border-subtle rounded-lg text-primary placeholder-muted focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                     placeholder="What do you hope to achieve through the paper trading platform?"
                   />
                 </div>
@@ -294,7 +294,7 @@ export default function RegisterPage() {
                   onChange={handleInputChange}
                   className="w-4 h-4 text-gold bg-surface border-subtle rounded focus:ring-gold focus:ring-2 mt-1"
                 />
-                <span className="text-sm text-medium-contrast">
+                <span className="text-sm text-secondary">
                   I agree to the{" "}
                   <button type="button" className="text-gold hover:text-gold-400 underline">
                     Terms of Service
