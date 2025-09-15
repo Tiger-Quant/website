@@ -1,0 +1,198 @@
+{
+  "portfolios": [
+    {
+      "id": 1,
+      "name": "Alex Chen",
+      "role": "President",
+      "strategy": "Momentum & Mean Reversion",
+      "performance": {
+        "totalReturn": 24.5,
+        "sharpeRatio": 1.8,
+        "maxDrawdown": -8.2,
+        "volatility": 12.3
+      },
+      "chartData": [
+        { "date": "2024-01-01", "value": 10000 },
+        { "date": "2024-02-01", "value": 10250 },
+        { "date": "2024-03-01", "value": 10800 },
+        { "date": "2024-04-01", "value": 11200 },
+        { "date": "2024-05-01", "value": 11500 },
+        { "date": "2024-06-01", "value": 11800 },
+        { "date": "2024-07-01", "value": 12200 },
+        { "date": "2024-08-01", "value": 12450 },
+        { "date": "2024-09-01", "value": 12000 },
+        { "date": "2024-10-01", "value": 12450 }
+      ],
+      "holdings": [
+        { "symbol": "AAPL", "weight": 15.2, "return": 8.5 },
+        { "symbol": "MSFT", "weight": 12.8, "return": 12.3 },
+        { "symbol": "GOOGL", "weight": 10.5, "return": 6.7 },
+        { "symbol": "TSLA", "weight": 8.9, "return": -2.1 },
+        { "symbol": "NVDA", "weight": 7.3, "return": 25.4 }
+      ],
+      "bio": "Focus on momentum strategies with mean reversion overlays. Specializes in tech sector analysis."
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "role": "Vice President",
+      "strategy": "Risk Parity & Factor Investing",
+      "performance": {
+        "totalReturn": 18.7,
+        "sharpeRatio": 2.1,
+        "maxDrawdown": -5.8,
+        "volatility": 9.2
+      },
+      "chartData": [
+        { "date": "2024-01-01", "value": 10000 },
+        { "date": "2024-02-01", "value": 10100 },
+        { "date": "2024-03-01", "value": 10350 },
+        { "date": "2024-04-01", "value": 10600 },
+        { "date": "2024-05-01", "value": 10850 },
+        { "date": "2024-06-01", "value": 11100 },
+        { "date": "2024-07-01", "value": 11350 },
+        { "date": "2024-08-01", "value": 11600 },
+        { "date": "2024-09-01", "value": 11750 },
+        { "date": "2024-10-01", "value": 11870 }
+      ],
+      "holdings": [
+        { "symbol": "SPY", "weight": 25.0, "return": 7.2 },
+        { "symbol": "QQQ", "weight": 20.0, "return": 9.8 },
+        { "symbol": "IWM", "weight": 15.0, "return": 5.4 },
+        { "symbol": "EFA", "weight": 15.0, "return": 3.1 },
+        { "symbol": "BND", "weight": 25.0, "return": 2.8 }
+      ],
+      "bio": "Risk-focused approach using factor models and risk parity principles for stable returns."
+    },
+    {
+      "id": 3,
+      "name": "Michael Rodriguez",
+      "role": "Treasurer",
+      "strategy": "Options & Volatility Trading",
+      "performance": {
+        "totalReturn": 31.2,
+        "sharpeRatio": 1.6,
+        "maxDrawdown": -12.5,
+        "volatility": 18.7
+      },
+      "chartData": [
+        { "date": "2024-01-01", "value": 10000 },
+        { "date": "2024-02-01", "value": 10500 },
+        { "date": "2024-03-01", "value": 11200 },
+        { "date": "2024-04-01", "value": 10800 },
+        { "date": "2024-05-01", "value": 12000 },
+        { "date": "2024-06-01", "value": 12500 },
+        { "date": "2024-07-01", "value": 11800 },
+        { "date": "2024-08-01", "value": 13000 },
+        { "date": "2024-09-01", "value": 12800 },
+        { "date": "2024-10-01", "value": 13120 }
+      ],
+      "holdings": [
+        { "symbol": "SPX", "weight": 30.0, "return": 8.5 },
+        { "symbol": "VIX", "weight": 20.0, "return": -15.2 },
+        { "symbol": "TLT", "weight": 15.0, "return": 3.8 },
+        { "symbol": "GLD", "weight": 15.0, "return": 12.4 },
+        { "symbol": "CASH", "weight": 20.0, "return": 2.1 }
+      ],
+      "bio": "Specializes in volatility trading and options strategies. High-risk, high-reward approach."
+    },
+    {
+      "id": 4,
+      "name": "Emily Watson",
+      "role": "Secretary",
+      "strategy": "Machine Learning & Alternative Data",
+      "performance": {
+        "totalReturn": 22.8,
+        "sharpeRatio": 1.9,
+        "maxDrawdown": -7.3,
+        "volatility": 11.5
+      },
+      "chartData": [
+        { "date": "2024-01-01", "value": 10000 },
+        { "date": "2024-02-01", "value": 10200 },
+        { "date": "2024-03-01", "value": 10600 },
+        { "date": "2024-04-01", "value": 10900 },
+        { "date": "2024-05-01", "value": 11300 },
+        { "date": "2024-06-01", "value": 11600 },
+        { "date": "2024-07-01", "value": 12000 },
+        { "date": "2024-08-01", "value": 12300 },
+        { "date": "2024-09-01", "value": 12100 },
+        { "date": "2024-10-01", "value": 12280 }
+      ],
+      "holdings": [
+        { "symbol": "ARKK", "weight": 20.0, "return": 15.2 },
+        { "symbol": "XLK", "weight": 18.0, "return": 11.8 },
+        { "symbol": "XLF", "weight": 15.0, "return": 6.4 },
+        { "symbol": "XLE", "weight": 12.0, "return": 8.9 },
+        { "symbol": "XLV", "weight": 10.0, "return": 4.7 }
+      ],
+      "bio": "Uses machine learning models and alternative data sources to identify market inefficiencies."
+    },
+    {
+      "id": 5,
+      "name": "David Kim",
+      "role": "Events Coordinator",
+      "strategy": "Sector Rotation & Macro",
+      "performance": {
+        "totalReturn": 16.4,
+        "sharpeRatio": 1.4,
+        "maxDrawdown": -9.1,
+        "volatility": 13.8
+      },
+      "chartData": [
+        { "date": "2024-01-01", "value": 10000 },
+        { "date": "2024-02-01", "value": 10150 },
+        { "date": "2024-03-01", "value": 10400 },
+        { "date": "2024-04-01", "value": 10700 },
+        { "date": "2024-05-01", "value": 11000 },
+        { "date": "2024-06-01", "value": 11200 },
+        { "date": "2024-07-01", "value": 11400 },
+        { "date": "2024-08-01", "value": 11600 },
+        { "date": "2024-09-01", "value": 11500 },
+        { "date": "2024-10-01", "value": 11640 }
+      ],
+      "holdings": [
+        { "symbol": "XLK", "weight": 25.0, "return": 11.8 },
+        { "symbol": "XLF", "weight": 20.0, "return": 6.4 },
+        { "symbol": "XLE", "weight": 15.0, "return": 8.9 },
+        { "symbol": "XLI", "weight": 15.0, "return": 5.2 },
+        { "symbol": "XLY", "weight": 10.0, "return": 7.6 }
+      ],
+      "bio": "Macro-driven sector rotation strategy based on economic indicators and market cycles."
+    },
+    {
+      "id": 6,
+      "name": "Jessica Liu",
+      "role": "Marketing Director",
+      "strategy": "ESG & Sustainable Investing",
+      "performance": {
+        "totalReturn": 19.3,
+        "sharpeRatio": 1.7,
+        "maxDrawdown": -6.7,
+        "volatility": 10.9
+      },
+      "chartData": [
+        { "date": "2024-01-01", "value": 10000 },
+        { "date": "2024-02-01", "value": 10100 },
+        { "date": "2024-03-01", "value": 10350 },
+        { "date": "2024-04-01", "value": 10600 },
+        { "date": "2024-05-01", "value": 10850 },
+        { "date": "2024-06-01", "value": 11100 },
+        { "date": "2024-07-01", "value": 11350 },
+        { "date": "2024-08-01", "value": 11600 },
+        { "date": "2024-09-01", "value": 11800 },
+        { "date": "2024-10-01", "value": 11930 }
+      ],
+      "holdings": [
+        { "symbol": "ESG", "weight": 30.0, "return": 8.2 },
+        { "symbol": "ICLN", "weight": 20.0, "return": 12.5 },
+        { "symbol": "PBW", "weight": 15.0, "return": 15.8 },
+        { "symbol": "SMOG", "weight": 15.0, "return": 9.1 },
+        { "symbol": "ESGD", "weight": 20.0, "return": 6.7 }
+      ],
+      "bio": "Focuses on environmental, social, and governance factors in investment decisions for sustainable returns."
+    }
+  ]
+}
+
+

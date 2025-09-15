@@ -1,0 +1,72 @@
+{
+  "officers": [
+    {
+      "id": 1,
+      "name": "Alex Chen",
+      "role": "President",
+      "major": "Computer Science & Finance",
+      "gradYear": "2025",
+      "bio": "Passionate about algorithmic trading and quantitative strategies. Led the team to victory in the 2023 CFA Institute Research Challenge.",
+      "email": "alex.chen@missouri.edu",
+      "linkedin": "https://linkedin.com/in/alexchen",
+      "photo": "/api/placeholder/300/300"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "role": "Vice President",
+      "major": "Mathematics & Statistics",
+      "gradYear": "2025",
+      "bio": "Specializes in risk management and portfolio optimization. Former intern at Goldman Sachs Quantitative Strategies.",
+      "email": "sarah.johnson@missouri.edu",
+      "linkedin": "https://linkedin.com/in/sarahjohnson",
+      "photo": "/api/placeholder/300/300"
+    },
+    {
+      "id": 3,
+      "name": "Michael Rodriguez",
+      "role": "Treasurer",
+      "major": "Economics & Finance",
+      "gradYear": "2026",
+      "bio": "Focuses on derivatives pricing and market microstructure. Active in developing our paper trading platform.",
+      "email": "michael.rodriguez@missouri.edu",
+      "linkedin": "https://linkedin.com/in/michaelrodriguez",
+      "photo": "/api/placeholder/300/300"
+    },
+    {
+      "id": 4,
+      "name": "Emily Watson",
+      "role": "Secretary",
+      "major": "Data Science & Finance",
+      "gradYear": "2026",
+      "bio": "Expert in machine learning applications for financial modeling. Leads our data analysis workshops.",
+      "email": "emily.watson@missouri.edu",
+      "linkedin": "https://linkedin.com/in/emilywatson",
+      "photo": "/api/placeholder/300/300"
+    },
+    {
+      "id": 5,
+      "name": "David Kim",
+      "role": "Events Coordinator",
+      "major": "Computer Science",
+      "gradYear": "2025",
+      "bio": "Organizes trading competitions and guest speaker events. Former software engineer at a fintech startup.",
+      "email": "david.kim@missouri.edu",
+      "linkedin": "https://linkedin.com/in/davidkim",
+      "photo": "/api/placeholder/300/300"
+    },
+    {
+      "id": 6,
+      "name": "Jessica Liu",
+      "role": "Marketing Director",
+      "major": "Business Administration & Finance",
+      "gradYear": "2026",
+      "bio": "Manages club communications and recruitment. Creates engaging content for our social media presence.",
+      "email": "jessica.liu@missouri.edu",
+      "linkedin": "https://linkedin.com/in/jessicaliu",
+      "photo": "/api/placeholder/300/300"
+    }
+  ]
+}
+
+
