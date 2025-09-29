@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Metadata } from "next";
 import { User, Key, Upload, CheckCircle, AlertCircle, X } from "lucide-react";
+import type { User as NetlifyUser} from "netlify-identity-widget"
 
 // This page is not linked from navigation - admin access only
 export default function AddMembersPage() {
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<NetlifyUser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'single' | 'csv'>('single');
   const [notifications, setNotifications] = useState<Array<{id: string, type: 'success' | 'error', message: string}>>([]);
@@ -20,8 +20,15 @@ export default function AddMembersPage() {
   });
 
   // CSV form state
+  interface CsvPreview {
+    totalRows: number;
+    validRows: number;
+    errors: string[];
+    preview?: Array<Record<string, string>>;
+  }
+
   const [csvData, setCsvData] = useState('');
-  const [csvPreview, setCsvPreview] = useState<any>(null);
+  const [csvPreview, setCsvPreview] = useState<CsvPreview | null>(null);
   const [isProcessingCsv, setIsProcessingCsv] = useState(false);
 
   useEffect(() => {
