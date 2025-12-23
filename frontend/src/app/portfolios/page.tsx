@@ -1,36 +1,36 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
-import { Search, TrendingUp, TrendingDown } from "lucide-react";
-import portfoliosData from "@/../data/portfolios.json";
+// import { useState, useMemo } from "react";
+// import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+// import { Search, TrendingUp, TrendingDown } from "lucide-react";
+// import portfoliosData from "@/../data/portfolios.json";
 
 export default function PortfoliosPage() {
-  const [selectedPortfolio, setSelectedPortfolio] = useState(portfoliosData.portfolios[0]);
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [selectedPortfolio, setSelectedPortfolio] = useState(portfoliosData.portfolios[0]);
+  // const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredPortfolios = useMemo(() => {
-    if (!searchTerm) return portfoliosData.portfolios;
-    
-    return portfoliosData.portfolios.filter(portfolio =>
-      portfolio.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      portfolio.strategy.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      portfolio.role.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-  }, [searchTerm]);
+  // const filteredPortfolios = useMemo(() => {
+  //   if (!searchTerm) return portfoliosData.portfolios;
+  //
+  //   return portfoliosData.portfolios.filter(portfolio =>
+  //     portfolio.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //     portfolio.strategy.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //     portfolio.role.toLowerCase().includes(searchTerm.toLowerCase())
+  //   );
+  // }, [searchTerm]);
 
-  const formatCurrency = (value: number) => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(value);
-  };
+  // const formatCurrency = (value: number) => {
+  //   return new Intl.NumberFormat('en-US', {
+  //     style: 'currency',
+  //     currency: 'USD',
+  //     minimumFractionDigits: 0,
+  //     maximumFractionDigits: 0,
+  //   }).format(value);
+  // };
 
-  const formatPercentage = (value: number) => {
-    return `${value > 0 ? '+' : ''}${value.toFixed(1)}%`;
-  };
+  // const formatPercentage = (value: number) => {
+  //   return `${value > 0 ? '+' : ''}${value.toFixed(1)}%`;
+  // };
 
   return (
     <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">
@@ -41,11 +41,12 @@ export default function PortfoliosPage() {
             Member Portfolios
           </h1>
           <p className="text-xl text-secondary max-w-3xl mx-auto">
-            Explore the trading strategies and performance of our members&apos; portfolios.
+            Page is currently under construction.
           </p>
         </div>
 
-        {/* Portfolio Selector */}
+        {/*
+        Portfolio Selector
         <div className="mb-8">
           <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
             <div className="flex-1 max-w-md">
@@ -79,7 +80,7 @@ export default function PortfoliosPage() {
           </div>
         </div>
 
-        {/* Selected Portfolio Chart */}
+        Selected Portfolio Chart
         <div className="mb-12">
           <div className="bg-elevated rounded-lg p-8">
             <div className="flex items-center justify-between mb-6">
@@ -147,7 +148,7 @@ export default function PortfoliosPage() {
           </div>
         </div>
 
-        {/* Performance Metrics */}
+        Performance Metrics
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
           <div className="bg-elevated rounded-lg p-6 text-center">
             <div className="text-2xl font-bold text-gold mb-2">
@@ -175,7 +176,7 @@ export default function PortfoliosPage() {
           </div>
         </div>
 
-        {/* Holdings Table */}
+        Holdings Table
         <div className="mb-12">
           <h3 className="text-2xl font-heading font-semibold text-primary mb-6">
             Current Holdings
@@ -210,7 +211,7 @@ export default function PortfoliosPage() {
           </div>
         </div>
 
-        {/* All Portfolios Table */}
+        All Portfolios Table
         <div>
           <h3 className="text-2xl font-heading font-semibold text-primary mb-6">
             All Portfolios
@@ -256,6 +257,7 @@ export default function PortfoliosPage() {
             </table>
           </div>
         </div>
+        */}
       </div>
     </div>
   );

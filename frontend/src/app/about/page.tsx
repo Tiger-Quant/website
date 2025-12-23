@@ -72,19 +72,19 @@ export default function AboutPage() {
           <h2 className="text-3xl font-heading font-semibold text-primary mb-8">By the Numbers</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-gold mb-2">160+</div>
+              <div className="text-4xl font-bold text-gold mb-2">30+</div>
               <div className="text-secondary">Active Members</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-gold mb-2">15+</div>
-              <div className="text-secondary">Competitions Won</div>
+              <div className="text-4xl font-bold text-gold mb-2">Top 5%</div>
+              <div className="text-secondary">IMC Prosperity</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-gold mb-2">50+</div>
+              <div className="text-4xl font-bold text-gold mb-2">10+</div>
               <div className="text-secondary">Guest Speakers</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-gold mb-2">5+</div>
+              <div className="text-4xl font-bold text-gold mb-2">3+</div>
               <div className="text-secondary">Years Active</div>
             </div>
           </div>
@@ -97,28 +97,28 @@ export default function AboutPage() {
             <div className="flex items-start space-x-4">
               <div className="w-4 h-4 bg-gold rounded-full mt-2 flex-shrink-0"></div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2019 - Foundation</h3>
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2023 - Foundation</h3>
                 <p className="text-secondary">TigerQuant was founded by a group of passionate students with a vision to bring quantitative finance education to Mizzou.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="w-4 h-4 bg-gold rounded-full mt-2 flex-shrink-0"></div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2020 - First Competition</h3>
-                <p className="text-secondary">We participated in our first national quantitative finance competition, finishing in the top 10.</p>
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2024 - First Competition</h3>
+                <p className="text-secondary">We participated in our first global quantitative finance competition, finishing in the top 5%.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="w-4 h-4 bg-gold rounded-full mt-2 flex-shrink-0"></div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2022 - Industry Partnerships</h3>
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2025 - Industry Partnerships</h3>
                 <p className="text-secondary">Established partnerships with leading financial institutions for internships and mentorship programs.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="w-4 h-4 bg-gold rounded-full mt-2 flex-shrink-0"></div>
               <div>
-                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2024 - Record Growth</h3>
+                <h3 className="text-xl font-heading font-semibold text-primary mb-2">2026 - Record Growth</h3>
                 <p className="text-secondary">Reached our highest membership numbers and launched our paper trading platform for hands-on learning.</p>
               </div>
             </div>

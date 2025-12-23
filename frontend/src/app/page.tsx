@@ -36,15 +36,15 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="animate-fade-in">
-              <div className="text-4xl font-bold text-gold mb-2">160+</div>
+              <div className="text-4xl font-bold text-gold mb-2">30+</div>
               <div className="text-secondary">Active Members</div>
             </div>
             <div className="animate-fade-in">
-              <div className="text-4xl font-bold text-gold mb-2">15+</div>
-              <div className="text-secondary">Competitions Won</div>
+              <div className="text-4xl font-bold text-gold mb-2">Top 5%</div>
+              <div className="text-secondary">IMC Prosperity</div>
             </div>
             <div className="animate-fade-in">
-              <div className="text-4xl font-bold text-gold mb-2">50+</div>
+              <div className="text-4xl font-bold text-gold mb-2">10+</div>
               <div className="text-secondary">Guest Speakers</div>
             </div>
           </div>

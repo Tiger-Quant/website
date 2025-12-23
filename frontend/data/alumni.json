@@ -2,62 +2,12 @@
   "alumni": [
     {
       "id": 1,
-      "name": "Robert Zhang",
-      "graduationYear": "2023",
-      "currentPosition": "Quantitative Analyst",
-      "company": "BlackRock",
-      "bio": "Former President who now works on systematic trading strategies at BlackRock's Systematic Active Equity team.",
-      "linkedin": "https://linkedin.com/in/robertzhang",
-      "photo": "/api/placeholder/200/200"
-    },
-    {
-      "id": 2,
-      "name": "Maria Garcia",
-      "graduationYear": "2023",
-      "currentPosition": "Risk Manager",
-      "company": "JPMorgan Chase",
-      "bio": "Specialized in derivatives risk management and now leads a team of risk analysts at JPMorgan.",
-      "linkedin": "https://linkedin.com/in/mariagarcia",
-      "photo": "/api/placeholder/200/200"
-    },
-    {
-      "id": 3,
-      "name": "James Wilson",
-      "graduationYear": "2022",
-      "currentPosition": "Portfolio Manager",
-      "company": "Renaissance Technologies",
-      "bio": "Pioneered our algorithmic trading strategies and now manages a quantitative hedge fund portfolio.",
-      "linkedin": "https://linkedin.com/in/jameswilson",
-      "photo": "/api/placeholder/200/200"
-    },
-    {
-      "id": 4,
-      "name": "Lisa Park",
-      "graduationYear": "2022",
-      "currentPosition": "Data Scientist",
-      "company": "Two Sigma",
-      "bio": "Expert in machine learning for financial markets, now developing next-generation trading algorithms.",
-      "linkedin": "https://linkedin.com/in/lisapark",
-      "photo": "/api/placeholder/200/200"
-    },
-    {
-      "id": 5,
-      "name": "Thomas Brown",
-      "graduationYear": "2021",
-      "currentPosition": "Senior Quant Developer",
-      "company": "Citadel",
-      "bio": "Built our first paper trading platform and now leads quantitative development at Citadel Securities.",
-      "linkedin": "https://linkedin.com/in/thomasbrown",
-      "photo": "/api/placeholder/200/200"
-    },
-    {
-      "id": 6,
-      "name": "Amanda Taylor",
-      "graduationYear": "2021",
-      "currentPosition": "Investment Banking Analyst",
-      "company": "Goldman Sachs",
-      "bio": "Combined quantitative skills with traditional finance, now working in Goldman's Quantitative Investment Strategies group.",
-      "linkedin": "https://linkedin.com/in/amandataylor",
+      "name": "Jack Scanlan",
+      "graduationYear": "2025",
+      "currentPosition": "Developer",
+      "company": "@Financeable",
+      "bio": "Founder and 1st president.",
+      "linkedin": "https://www.linkedin.com/in/jack-scanlan1/",
       "photo": "/api/placeholder/200/200"
     }
   ]
