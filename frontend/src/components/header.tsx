@@ -30,7 +30,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo and Site Title */}
-          <div className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center space-x-3">
             <Image
               src="/logo-no-background.png"
               alt="TigerQuant Logo"
@@ -41,7 +41,7 @@ export default function Header() {
             <h1 className="text-xl font-heading font-semibold text-gold">
               TigerQuant
             </h1>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
