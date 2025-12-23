@@ -88,87 +88,12 @@ export default function JoinPage() {
               </div>
               <div>
                 <h3 className="text-xl font-heading font-semibold text-primary mb-2">
-                  Complete the Application
-                </h3>
-                <p className="text-secondary">
-                  Fill out our membership application form, which includes your academic background, 
-                  interest in quantitative finance, and relevant experience.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-black font-bold text-sm">3</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-heading font-semibold text-primary mb-2">
-                  Participate in Orientation
-                </h3>
-                <p className="text-secondary">
-                  Attend our new member orientation to learn about club activities, 
-                  resources, and how to get the most out of your membership.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <span className="text-black font-bold text-sm">4</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-heading font-semibold text-primary mb-2">
                   Start Trading
                 </h3>
                 <p className="text-secondary">
                   Begin your journey with our paper trading platform and start building 
                   your quantitative finance skills through hands-on experience.
                 </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Requirements Section */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-heading font-semibold text-primary mb-8 text-center">
-            Membership Requirements
-          </h2>
-          <div className="bg-elevated rounded-lg p-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-heading font-semibold text-gold mb-4">Academic Requirements</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-secondary">
-                    <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
-                    Currently enrolled at University of Missouri
-                  </li>
-                  <li className="flex items-center text-secondary">
-                    <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
-                    Minimum 3.0 GPA
-                  </li>
-                  <li className="flex items-center text-secondary">
-                    <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
-                    Interest in quantitative finance
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl font-heading font-semibold text-gold mb-4">Commitment</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-secondary">
-                    <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
-                    Attend at least 75% of meetings
-                  </li>
-                  <li className="flex items-center text-secondary">
-                    <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
-                    Participate in club activities
-                  </li>
-                  <li className="flex items-center text-secondary">
-                    <CheckCircle className="w-5 h-5 text-gold mr-3 flex-shrink-0" />
-                    Maintain professional conduct
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
