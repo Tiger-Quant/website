@@ -109,11 +109,11 @@ export default function JoinPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:tigerquant@missouri.edu?subject=Membership Application"
+              href="https://groupme.com/join_group/98022237/L6xXfKtc"
               className="inline-flex items-center px-8 py-4 bg-black text-gold font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gold"
             >
-              <Mail className="w-5 h-5 mr-2" />
-              Apply Now
+              <Users className="w-5 h-5 mr-2" />
+              GroupMe
             </a>
             <a
               href="/register"

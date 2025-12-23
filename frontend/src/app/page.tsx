@@ -44,8 +44,8 @@ export default function HomePage() {
               <div className="text-secondary">IMC Prosperity</div>
             </div>
             <div className="animate-fade-in">
-              <div className="text-4xl font-bold text-gold mb-2">10+</div>
-              <div className="text-secondary">Guest Speakers</div>
+              <div className="text-4xl font-bold text-gold mb-2">3+</div>
+              <div className="text-secondary">Years Active</div>
             </div>
           </div>
         </div>
