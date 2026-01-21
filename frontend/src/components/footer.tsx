@@ -54,10 +54,10 @@ export default function Footer() {
               <p className="text-secondary text-sm">University of Missouri</p>
               <p className="text-secondary text-sm">Columbia, MO</p>
               <a 
-                href="mailto:mjmgrm@umsystem.edu" 
+                href="mailto:contact@tiger-quant.com" 
                 className="block text-secondary hover:text-gold transition-colors text-sm"
               >
-                mjmgrm@umsystem.edu
+                contact@tiger-quant.com
               </a>
             </div>
           </div>
