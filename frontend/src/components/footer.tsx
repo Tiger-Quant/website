@@ -54,10 +54,10 @@ export default function Footer() {
               <p className="text-secondary text-sm">University of Missouri</p>
               <p className="text-secondary text-sm">Columbia, MO</p>
               <a 
-                href="mailto:contact@tiger-quant.com" 
+                href="mailto:president.tigerquant@gmail.com" 
                 className="block text-secondary hover:text-gold transition-colors text-sm"
               >
-                contact@tiger-quant.com
+                president.tigerquant@gmail.com
               </a>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function Footer() {
 
         <div className="border-t border-subtle mt-8 pt-8 text-center">
           <p className="text-secondary text-sm">
-            © 2024 TigerQuant. All rights reserved. | University of Missouri
+            © 2026 TigerQuant. All rights reserved. | University of Missouri
           </p>
         </div>
       </div>

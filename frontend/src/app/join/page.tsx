@@ -77,7 +77,7 @@ export default function JoinPage() {
                 </h3>
                 <p className="text-secondary">
                   Come to one of our weekly meetings to learn more about TigerQuant and meet current members. 
-                  Meetings are held every Tuesday at 6:00 PM in Middlebush Hall, Room 132.
+                  Meetings are held every Monday and Wednesday at 6:00 PM in Middlebush Hall, Room 132.
                 </p>
               </div>
             </div>
